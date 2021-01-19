@@ -20,6 +20,7 @@
 		4D99504225B3791C00D34C0A /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99504125B3791C00D34C0A /* Usuario.swift */; };
 		4D99504725B379A700D34C0A /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99504625B379A700D34C0A /* Parser.swift */; };
 		4D99504E25B37E5700D34C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99504D25B37E5700D34C0A /* ViewController.swift */; };
+		4DCCDA4225B769FD00BF9BD5 /* Acessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCDA4125B769FD00BF9BD5 /* Acessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		4D99504125B3791C00D34C0A /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		4D99504625B379A700D34C0A /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		4D99504D25B37E5700D34C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DCCDA4125B769FD00BF9BD5 /* Acessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acessibility.swift; sourceTree = "<group>"; };
 		5E9EF9BA93A965855F478C72 /* Pods-MVVMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMProject.release.xcconfig"; path = "Target Support Files/Pods-MVVMProject/Pods-MVVMProject.release.xcconfig"; sourceTree = "<group>"; };
 		F4410368050F693037286614 /* Pods_MVVMProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 			children = (
 				4D99502825B3746500D34C0A /* Main.storyboard */,
 				4D99504D25B37E5700D34C0A /* ViewController.swift */,
+				4DCCDA4125B769FD00BF9BD5 /* Acessibility.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				4D021E8225B54311004FF203 /* Bindable.swift in Sources */,
 				4D99504225B3791C00D34C0A /* Usuario.swift in Sources */,
 				4D99504725B379A700D34C0A /* Parser.swift in Sources */,
+				4DCCDA4225B769FD00BF9BD5 /* Acessibility.swift in Sources */,
 				4D99502325B3746500D34C0A /* AppDelegate.swift in Sources */,
 				4D021E7925B39190004FF203 /* ViewModel.swift in Sources */,
 				4D99502525B3746500D34C0A /* SceneDelegate.swift in Sources */,

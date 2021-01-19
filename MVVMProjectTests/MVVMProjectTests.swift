@@ -18,13 +18,8 @@ class MVVMProjectTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
     func testPerformanceExample() throws {
-        // This is an example of a performance test case.
+            // This is an example of a performance test case.
         measure {
             // Put the code you want to measure the time of here.
         }
@@ -36,16 +31,12 @@ class MVVMProjectTests: XCTestCase {
         XCTAssertEqual(contact.id, "0")
         XCTAssertEqual(contact.email, "user@user.com")
         XCTAssertNotNil(contact)
-        
     }
     func testViewModel() {
         var contacts : [Contact] = []
         let client: parseProtocol
         var viewData: Bindable<ViewData?> = Bindable(nil)
         
-//        init(client: parseProtocol = Parser()) {
-//            self.client = client
-//        }
         func loadMovie() {
             client.parse { (contact) in
                 contacts = contact
@@ -61,11 +52,10 @@ class MVVMProjectTests: XCTestCase {
             let object = contacts
             return object
         }
-        
+            
         XCTAssertNotNil(viewData)
         XCTAssertNotNil(contacts)
         XCTAssertNotNil(cellForRow())
     }
-    
-
 }
+    

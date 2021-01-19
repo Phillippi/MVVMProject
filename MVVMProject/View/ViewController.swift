@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var labelTitulo: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
     var model: ViewModel = ViewModel()
